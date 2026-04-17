@@ -1,4 +1,4 @@
-```bash
+
 # AWS DevOps CI/CD Pipeline
 
 A production-style CI/CD pipeline built on AWS that automatically builds, pushes, and deploys a Dockerized Flask application on every GitHub push.

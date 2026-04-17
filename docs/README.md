@@ -33,7 +33,7 @@ Live Application ✅
 | Version Control | GitHub |
 
 ## 📁 Project Structure
-```
+```text
 cicd-pipeline-app/
 ├── src/
 │   ├── app.py              # Flask application
@@ -73,7 +73,6 @@ cicd-pipeline-app/
 - AWS Account
 - Terraform installed
 - GitHub account
-```
 
 ### Steps
 

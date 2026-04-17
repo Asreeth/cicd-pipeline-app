@@ -33,11 +33,25 @@ Live Application ✅
 | Version Control | GitHub |
 
 ## 📁 Project Structure
+```
 cicd-pipeline-app/
-├── app.py              # Flask application
-├── requirements.txt    # Python dependencies
-├── Dockerfile          # Container definition
-└── Jenkinsfile         # Pipeline definition
+├── src/
+│   ├── app.py              # Flask application
+│   └── requirements.txt    # Python dependencies
+├── terraform/
+│   ├── ec2.tf              # EC2 instances configuration
+│   ├── iam.tf              # IAM roles and policies
+│   ├── main.tf             # Main Terraform configuration
+│   ├── security_groups.tf  # Security groups
+│   └── variables.tf        # Terraform variables
+├── ci/
+│   └── Jenkinsfile         # Jenkins pipeline definition
+├── docs/
+│   └── README.md           # Project documentation
+├── Dockerfile              # Container definition
+├── app-screenshot.png      # Application screenshot
+└── jenkins-success.png     # Jenkins pipeline success screenshot
+```
 
 ## ⚙️ Infrastructure (Terraform)
 
@@ -88,10 +102,10 @@ http://YOUR_JENKINS_IP:8080/github-webhook/
 ## 📸 Screenshots
 
 ### Jenkins Pipeline Success
-![Jenkins Pipeline](jenkins-success.png)
+![Jenkins Pipeline](../jenkins-success.png)
 
 ### Live Application
-![Live App](app-screenshot.png)
+![Live App](../app-screenshot.png)
 
 ## 🎯 Key Achievements
 

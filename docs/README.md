@@ -4,6 +4,7 @@
 A production-style CI/CD pipeline built on AWS that automatically builds, pushes, and deploys a Dockerized Flask application on every GitHub push.
 
 ## 🏗️ Architecture
+```text
 Developer → GitHub Push
 ↓
 GitHub Webhook
@@ -19,9 +20,11 @@ Application Server (EC2)
 └── Run new container
 ↓
 Live Application ✅
+```
 
 ## 🛠️ Tools & Technologies
 
+```text
 | Category | Tool |
 |---|---|
 | Infrastructure | Terraform |
@@ -31,6 +34,7 @@ Live Application ✅
 | Image Registry | Amazon ECR |
 | Language | Python (Flask) |
 | Version Control | GitHub |
+```
 
 ## 📁 Project Structure
 ```text
